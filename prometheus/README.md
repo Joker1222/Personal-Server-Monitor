@@ -9,7 +9,7 @@
 $ cd /opt/ && wget https://github.com/Joker1222/Personal-Server-Monitor/raw/master/prometheus/prometheus-2.23.0-linux-amd64.tgz
 
 # Decompression and change dirname
-$ cd /opt && tar -zxvf prometheus-2.23.0-linux-amd64.tgz && mv prometheus-2.23.0-linux-amd64.tgz prometheus
+$ cd /opt && tar -zxvf prometheus-2.23.0-linux-amd64.tgz && mv prometheus-2.23.0-linux-amd64 prometheus
 ~~~
 
 ## 一键启动
