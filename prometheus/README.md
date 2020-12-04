@@ -1,5 +1,5 @@
 # Prometheus Install and Deploy
-[最新版本请到官方下载](https://prometheus.io/download/)
+[官方下载地址](https://prometheus.io/download/)
 
 > 建议将此工具链放到/opt目录下,root权限执行即可,以下命令默认在/opt目录下安装部署
 
@@ -8,11 +8,8 @@
 # Download
 $ cd /opt/ && wget https://github.com/Joker1222/Personal-Server-Monitor/blob/master/prometheus/prometheus-2.23.0-linux_amd64.tgz
 
-# Decompression
-$ tar -zxvf prometheus-2.23.0.linux-amd64.tgz
-
-# Change dir name
-$ mv prometheus-2.23.0.linux-amd64 prometheus
+# Decompression and change dirname
+$ cd /opt && tar -zxvf prometheus-2.23.0.linux-amd64.tgz && mv prometheus-2.23.0.linux-amd64 prometheus
 ~~~
 
 ## 一键启动
