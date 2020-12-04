@@ -24,6 +24,8 @@ $ mv prometheus-2.23.0.linux-amd64 prometheus
 #             - status  查看prometheus进程状态
 #             - restart 如果守护进程不存在,则启动守护进程,如果守护进程存在则直接关掉prometheus进程,等待5s后prometheus被守护进程自动拉起
 $ cd /opt/prometheus/ && ./run.sh start 
+
+# ps: 默认配置无任何探针(exporter)
 ~~~
 
 ## 配置探针IP端口 简易说明
@@ -63,6 +65,7 @@ scrape_configs:
   - job_name: 'process_exporter'   # process_exporter是部署在被监控服务机器上的,填写被监控机器的IP端口(9256)
     static_configs:
       - targets: ['ServerIP:9256']
+$ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生效.
 ~~~
 
 
