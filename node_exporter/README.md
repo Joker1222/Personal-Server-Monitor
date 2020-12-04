@@ -7,6 +7,6 @@
 ~~~bash 
 $ cd /opt && wget https://github.com/Joker1222/Personal-Server-Monitor/raw/master/node_exporter/node_exporter-1.0.1.linux-amd64.tgz
 $ cd /opt && tar zxvf node_exporter-1.0.1.linux-amd64.tgz && mv node_exporter-1.0.1.linux-amd64 node_exporter
-$ cd /opt/node_exporter && ./run start
+$ cd /opt/node_exporter && ./run.sh start
 ~~~
 
