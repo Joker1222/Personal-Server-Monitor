@@ -8,7 +8,7 @@
 | Prometheus| 2.23.0 |
 | Grafana| 7.3.4 |
 | Node_Exporter| 1.0.1 |
-| Process_Exporter|  |
+| Process_Exporter| 0.7.5 |
 
 # Deploy in sequence
 1. [Prometheus click here ](https://github.com/Joker1222/Personal-Server-Monitor/tree/master/prometheus) <br>
@@ -65,6 +65,6 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 #### 浏览器验证
 http://ServerIP:9090 <br>
 - 如果成功能看到以下效果
-![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/PrometheusTargetShow.png)
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/prometheusTarget.png)
 
 ### 2. 
