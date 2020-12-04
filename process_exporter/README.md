@@ -7,7 +7,7 @@
 ~~~bash
 $ cd /opt/ && wget https://github.com/Joker1222/Personal-Server-Monitor/raw/master/process_exporter/process-exporter-0.7.5.linux-386.tgz
 $ cd /opt && tar zxvf process-exporter-0.7.5.linux-386.tgz && mv process-exporter-0.7.5.linux-386 process_exporter
-$ cd /opt/process_exporter/ && ./run start
+$ cd /opt/process_exporter/ && ./run.sh start
 ~~~
 
 ### 配置简易说明
