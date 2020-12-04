@@ -68,9 +68,10 @@ scrape_configs:
 $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生效.
 ~~~
 
-**默认端口9090** <br>
-打开浏览器验证 <br>
-http://IP:9090/ <br>
+# 打开浏览器验证 <br>
+
+http://IP:9090/ **默认端口9090** <br>
+
 ![Prometheus Show png](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/PrometheusShow.png)
 
 
