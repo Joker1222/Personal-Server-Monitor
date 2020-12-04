@@ -8,6 +8,7 @@
 4. [ProcessExporter click here ](https://github.com/Joker1222/Personal-Server-Monitor/tree/master/process_exporter) <br>
 
 # 上述工具安装且部署成功后,下面将各个工具连接起来 
+**特别注意：由于是时序性数据源,多机部署情况下一定要确保时间同步!  "$ ntpdate -u cn.pool.ntp.org" **
 > 大致思路: exporter采集数据 -> prometheus服务接收数据 -> grafana调用prometheus服务的相关接口获取数据源
 
 ### 1. Prometheus服务配置exporterIP:端口 
