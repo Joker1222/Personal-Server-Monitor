@@ -50,8 +50,7 @@ scrape_configs:
       - targets: ['ServerIP:9256']
 $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生效.
 ~~~
-**浏览器验证http://PrometheusIP:9090** <br>
-**如果连接成功能看到以下效果** <br><br>
+**浏览器验证 http://PrometheusIP:9090 , 如果连接成功能看到以下效果** <br><br>
 ![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/prometheusTarget.png)
 
 ### 2. Grafana配置Prometheus数据源
@@ -66,4 +65,12 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 ![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaDataSave.png)
 
 ### 3. Grafana配置node_exporter仪表盘(Dashboards)
+
+**点击Import导入node仪表盘配置,id:8919** <br><br>
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaNode1.png)
+
+**选择Prometheus数据源后保存即可** <br><br>
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaNode2.png)
+
+
 ### 4. Grafana配置process_exporter仪表盘(Dashboards)
