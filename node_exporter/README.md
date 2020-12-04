@@ -1,5 +1,7 @@
 # Node_Exporter 安装部署
 
+[官方下载地址](https://prometheus.io/download/)
+
 > node_exporter是监控整机性能数据的,没什么特殊配置,解压后直接./run.sh start运行即可,开箱即用! note:建议存放在/opt目录下
 
 ~~~bash 
