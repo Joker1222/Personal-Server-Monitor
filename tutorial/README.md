@@ -83,7 +83,7 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 
 ### 4. Grafana配置process_exporter仪表盘(Dashboards)
 
-**点击Import,这里导入一个json配置文件,不用社区提供的仪表盘 <br><br>
+**点击Import,这里导入一个json配置文件,不用社区提供的仪表盘** <br><br>
 [process-dashboard-json配置下载链接](https://raw.githubusercontent.com/Joker1222/Personal-Server-Monitor/master/process_exporter/process-exporter-dashboard.json) <br><br>
 ![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaProcess.png)
 
