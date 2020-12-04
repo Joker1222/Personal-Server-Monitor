@@ -64,7 +64,7 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 ~~~
 #### 浏览器验证
 http://ServerIP:9090 <br>
-- 如果成功能看到以下效果
+**如果成功能看到以下效果** <br>
 ![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/prometheusTarget.png)
 
 ### 2. 
