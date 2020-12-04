@@ -85,11 +85,11 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 
 **点击Import,这里导入一个json配置文件,不用社区提供的仪表盘** <br><br>
 [process-dashboard-json配置下载链接](https://raw.githubusercontent.com/Joker1222/Personal-Server-Monitor/master/process_exporter/process-exporter-dashboard.json) <br><br>
-![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaProcess.png)
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaProcess_1.png)
 
 **选择Prometheus数据源后保存即可** <br><br>
-![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaProcess2.png)
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaProcess_2.png)
 
 **效果如下**
-![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaProcess3.png)
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaProcess_3.png)
 
