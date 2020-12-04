@@ -51,10 +51,20 @@ scrape_configs:
 $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生效.
 ~~~
 #### 浏览器验证
-http://ServerIP:9090 <br>
+http://PrometheusIP:9090 <br>
 **如果连接成功能看到以下效果** <br>
 ![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/prometheusTarget.png)
 
 ### 2. Grafana配置Prometheus数据源
+- 打开浏览器 http://GrafanaIP:9090 
+
+- 首次登陆,账号admin 密码admin
+
+- 进入后点击DataSource,选择Prometheus 
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaData.png)
+
+- 填写自己Prometheus服务的IP端口然后保存即可
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaDataSave.png)
+
 ### 3. Grafana配置node_exporter仪表盘(Dashboards)
 ### 4. Grafana配置process_exporter仪表盘(Dashboards)
