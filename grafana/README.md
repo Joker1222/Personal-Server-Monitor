@@ -11,6 +11,8 @@ $ dpkg -i grafana_7.3.4_amd64.deb
 $ /etc/init.d/grafana-server start  #启动grafana
 ~~~
 
-默认端口3000
-打开浏览器验证
+**默认端口3000** <br>
+打开浏览器验证 <br>
 http://IP:3000/ 
+
+![Grafana Show png]()
