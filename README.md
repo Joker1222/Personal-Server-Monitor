@@ -11,7 +11,7 @@
 | Process_Exporter|  |
 
 # Deploy
-[Prometheus click here ](https://) <br>
-[Grafana click here ](https://) <br>
-[NodeExporter click here ](https://) <br>
-[ProcessExporter click here ](https://) <br>
+[Prometheus click here ](https://github.com/Joker1222/Personal-Server-Monitor/tree/master/prometheus) <br>
+[Grafana click here ](https://github.com/Joker1222/Personal-Server-Monitor/tree/master/grafana) <br>
+[NodeExporter click here ](https://github.com/Joker1222/Personal-Server-Monitor/tree/master/node_exporter) <br>
+[ProcessExporter click here ](https://github.com/Joker1222/Personal-Server-Monitor/tree/master/process_exporter) <br>
