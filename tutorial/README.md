@@ -56,14 +56,14 @@ http://PrometheusIP:9090 <br>
 ![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/prometheusTarget.png)
 
 ### 2. Grafana配置Prometheus数据源
-- 打开浏览器 http://GrafanaIP:9090 
+**打开浏览器 http://GrafanaIP:3000** <br>
 
-- 首次登陆,账号admin 密码admin
+**首次登陆,账号admin 密码admin** <br>
 
-- 进入后点击DataSource,选择Prometheus 
+**进入后点击DataSource,选择Prometheus** <br>
 ![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaData.png)
 
-- 填写自己Prometheus服务的IP端口然后保存即可
+**填写自己Prometheus服务的IP端口然后保存即可** <br>
 ![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaDataSave.png)
 
 ### 3. Grafana配置node_exporter仪表盘(Dashboards)
