@@ -11,7 +11,7 @@
 
 **特别注意：由于是时序性数据源,多机部署情况下一定要确保时间同步!**
 ~~~bash
-$ ntpdate -u cn.pool.ntp.org
+$ ntpdate -u cn.pool.ntp.org #时间同步指令
 ~~~
 > 大致思路: exporter采集数据 -> prometheus服务接收数据 -> grafana调用prometheus服务的相关接口获取数据源
 
