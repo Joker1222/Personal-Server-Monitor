@@ -77,3 +77,13 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 
 
 ### 4. Grafana配置process_exporter仪表盘(Dashboards)
+
+**点击Import导入process仪表盘配置,id:249** <br><br>
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaProcess.png)
+
+**选择Prometheus数据源后保存即可** <br><br>
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaProcess2.png)
+
+**效果如下**
+![PrometheusTargetShow](https://raw.githubusercontent.com/Joker1222/remote_png/master/prometheus/GrafanaProcess3.png)
+
