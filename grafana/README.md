@@ -10,3 +10,7 @@ $ wget https://dl.grafana.com/oss/release/grafana_7.3.4_amd64.deb
 $ dpkg -i grafana_7.3.4_amd64.deb
 $ /etc/init.d/grafana-server start  #启动grafana
 ~~~
+
+默认端口3000
+打开浏览器验证
+http://IP:3000/ 
