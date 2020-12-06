@@ -64,7 +64,7 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 **首次登陆,账号admin 密码admin** <br>
 
 **进入后点击DataSource,选择Prometheus** <br><br>
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaData.png)
+![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaDataSource.png)
 
 **填写自己Prometheus服务的IP端口然后保存即可** <br><br>
 ![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaDataSave.png)
