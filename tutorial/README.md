@@ -64,32 +64,32 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 **首次登陆,账号admin 密码admin** <br>
 
 **进入后点击DataSource,选择Prometheus** <br><br>
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaDataSource.png)
+![GrafanaDataSource](http://8.133.161.99/png/prometheus/GrafanaDataSource.png)
 
 **填写自己Prometheus服务的IP端口然后保存即可** <br><br>
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaDataSave.png)
+![GrafanaDataSave](http://8.133.161.99/png/prometheus/GrafanaDataSave.png)
 
 ### 3. Grafana配置node_exporter仪表盘(Dashboards)
 
 **点击Import导入node仪表盘配置,id:8919** <br><br>
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaNode1.png)
+![GrafanaNode1](http://8.133.161.99/png/prometheus/GrafanaNode1.png)
 
 **选择Prometheus数据源后保存即可** <br><br>
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaNode2.png)
+![GrafanaNode2](http://8.133.161.99/png/prometheus/GrafanaNode2.png)
 
 **效果如下**
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaNode3.png)
+![GrafanaNode3](http://8.133.161.99/png/prometheus/GrafanaNode3.png)
 
 
 ### 4. Grafana配置process_exporter仪表盘(Dashboards)
 
 **点击Import,这里导入一个json配置文件,不用社区提供的仪表盘** <br><br>
 [process-dashboard-json配置下载链接](https://raw.githubusercontent.com/Joker1222/Personal-Server-Monitor/master/process_exporter/process-exporter-dashboard.json) <br><br>
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaProcess_1.png)
+![GrafanaProcess1](http://8.133.161.99/png/prometheus/GrafanaProcess_1.png)
 
 **选择Prometheus数据源后保存即可** <br><br>
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaProcess_2.png)
+![GrafanaProcess2](http://8.133.161.99/png/prometheus/GrafanaProcess_2.png)
 
 **效果如下**
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/GrafanaProcess_3.png)
+![GrafanaProcess3](http://8.133.161.99/png/prometheus/GrafanaProcess_3.png)
 
