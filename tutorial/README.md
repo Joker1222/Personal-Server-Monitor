@@ -56,7 +56,7 @@ scrape_configs:
 $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生效.
 ~~~
 **浏览器验证 http://PrometheusIP:9090 , 如果连接成功能看到以下效果** <br><br>
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/prometheusTarget.png)
+![PrometheusTargetShow](http://8.133.161.99/png/prometheus/P.png)
 
 ### 2. Grafana配置Prometheus数据源
 **打开浏览器 http://GrafanaIP:3000** <br>
