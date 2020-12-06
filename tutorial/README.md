@@ -56,7 +56,7 @@ scrape_configs:
 $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生效.
 ~~~
 **浏览器验证 http://PrometheusIP:9090 , 如果连接成功能看到以下效果** <br><br>
-![PrometheusTargetShow](http://8.133.161.99/png/prometheus/PrometheusTargetShow.png)
+![PrometheusTargetShow](../png/PrometheusTargetShow.png)
 
 ### 2. Grafana配置Prometheus数据源
 **打开浏览器 http://GrafanaIP:3000** <br>
@@ -64,32 +64,32 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 **首次登陆,账号admin 密码admin** <br>
 
 **进入后点击DataSource,选择Prometheus** <br><br>
-![GrafanaDataSource](http://8.133.161.99/png/prometheus/GrafanaDataSource.png)
+![GrafanaDataSource](../png/GrafanaDataSource.png)
 
 **填写自己Prometheus服务的IP端口然后保存即可** <br><br>
-![GrafanaDataSave](http://8.133.161.99/png/prometheus/GrafanaDataSave.png)
+![GrafanaDataSave](../png/GrafanaDataSave.png)
 
 ### 3. Grafana配置node_exporter仪表盘(Dashboards)
 
 **点击Import导入node仪表盘配置,id:8919** <br><br>
-![GrafanaNode1](http://8.133.161.99/png/prometheus/GrafanaNode1.png)
+![GrafanaNode1](../png/GrafanaNode1.png)
 
 **选择Prometheus数据源后保存即可** <br><br>
-![GrafanaNode2](http://8.133.161.99/png/prometheus/GrafanaNode2.png)
+![GrafanaNode2](../png/GrafanaNode2.png)
 
 **效果如下**
-![GrafanaNode3](http://8.133.161.99/png/prometheus/GrafanaNode3.png)
+![GrafanaNode3](../png/GrafanaNode3.png)
 
 
 ### 4. Grafana配置process_exporter仪表盘(Dashboards)
 
 **点击Import,这里导入一个json配置文件,不用社区提供的仪表盘** <br><br>
 [process-dashboard-json配置下载链接](https://raw.githubusercontent.com/Joker1222/Personal-Server-Monitor/master/process_exporter/process-exporter-dashboard.json) <br><br>
-![GrafanaProcess1](http://8.133.161.99/png/prometheus/GrafanaProcess1.png)
+![GrafanaProcess1](../png/GrafanaProcess1.png)
 
 **选择Prometheus数据源后保存即可** <br><br>
-![GrafanaProcess2](http://8.133.161.99/png/prometheus/GrafanaProcess2.png)
+![GrafanaProcess2](../png/GrafanaProcess2.png)
 
 **效果如下**
-![GrafanaProcess3](http://8.133.161.99/png/prometheus/GrafanaProcess3.png)
+![GrafanaProcess3](../png/GrafanaProcess3.png)
 
