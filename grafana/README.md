@@ -15,4 +15,4 @@ $ /etc/init.d/grafana-server start  #启动grafana
 打开浏览器验证 <br>
 http://IP:3000/ 
 
-![Grafana Show png](https://raw.githubusercontent.com/Joker1222/Personal-Server-Monitor/master/png/prometheus/GrafanaLoginShow.png)
+![Grafana Show png](../png/GrafanaLoginShow.png)
