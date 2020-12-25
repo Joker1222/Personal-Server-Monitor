@@ -17,7 +17,7 @@
   "gnetId": 8378,
   "graphTooltip": 1,
   "id": 20,
-  "iteration": 1607338526660,
+  "iteration": 1608879371625,
   "links": [
     {
       "icon": "dashboard",
@@ -235,7 +235,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:1424",
           "decimals": null,
           "format": "percentunit",
           "label": null,
@@ -245,7 +244,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:1425",
           "decimals": 2,
           "format": "short",
           "label": null,
@@ -280,15 +278,19 @@
       "dashLength": 10,
       "dashes": false,
       "datasource": "Prometheus",
+      "decimals": 2,
+      "description": "",
+      "editable": true,
+      "error": false,
       "fieldConfig": {
         "defaults": {
-          "custom": {},
-          "unit": "percent"
+          "custom": {}
         },
         "overrides": []
       },
       "fill": 2,
       "fillGradient": 0,
+      "grid": {},
       "gridPos": {
         "h": 7,
         "w": 12,
@@ -296,7 +298,7 @@
         "y": 11
       },
       "hiddenSeries": false,
-      "id": 49,
+      "id": 50,
       "legend": {
         "alignAsTable": true,
         "avg": true,
@@ -307,15 +309,15 @@
         "min": true,
         "rightSide": true,
         "show": true,
-        "sideWidth": 250,
+        "sort": "avg",
+        "sortDesc": true,
         "total": false,
         "values": true
       },
       "lines": true,
       "linewidth": 2,
       "links": [],
-      "maxPerRow": 2,
-      "nullPointMode": "null",
+      "nullPointMode": "null as zero",
       "options": {
         "alertThreshold": true
       },
@@ -340,20 +342,25 @@
       "targets": [
         {
           "expr": "topk(1000,\nrate(namedprocess_namegroup_cpu_user_seconds_total{groupname=~\"$processes\",instance=~\"$host\"}[$interval])\nor \n(\nirate(namedprocess_namegroup_cpu_user_seconds_total{groupname=~\"$processes\",instance=~\"$host\"}[5m])))",
+          "format": "time_series",
           "interval": "$interval",
-          "legendFormat": "{{instance}}:{{groupname}}",
-          "refId": "A"
+          "intervalFactor": 1,
+          "legendFormat": "{{instance}} : {{groupname}}",
+          "metric": "process_namegroup_cpu_seconds_total",
+          "refId": "A",
+          "step": 10
         }
       ],
       "thresholds": [],
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "$host:进程用户态CPU占用(User)",
+      "title": "$host: 进程用户态CPU占用(User) ",
       "tooltip": {
+        "msResolution": false,
         "shared": true,
         "sort": 0,
-        "value_type": "individual"
+        "value_type": "cumulative"
       },
       "type": "graph",
       "xaxis": {
@@ -365,16 +372,16 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:547",
-          "format": "percent",
+          "decimals": null,
+          "format": "percentunit",
           "label": null,
           "logBase": 1,
           "max": null,
-          "min": null,
+          "min": 0,
           "show": true
         },
         {
-          "$$hashKey": "object:548",
+          "decimals": 2,
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -483,7 +490,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:491",
           "decimals": null,
           "format": "percentunit",
           "label": null,
@@ -493,7 +499,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:492",
           "decimals": 2,
           "format": "short",
           "label": null,
@@ -621,7 +626,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:2161",
           "format": "bytes",
           "label": null,
           "logBase": 1,
@@ -630,7 +634,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:2162",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -741,7 +744,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:3257",
           "format": "bytes",
           "label": null,
           "logBase": 1,
@@ -750,7 +752,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:3258",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -861,7 +862,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:3345",
           "format": "bytes",
           "label": null,
           "logBase": 1,
@@ -870,7 +870,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:3346",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -982,7 +981,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:3519",
           "format": "bytes",
           "label": null,
           "logBase": 1,
@@ -991,7 +989,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:3520",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -1116,7 +1113,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:3709",
           "format": "Bps",
           "label": null,
           "logBase": 1,
@@ -1125,7 +1121,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:3710",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -1235,7 +1230,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:3797",
           "format": "Bps",
           "label": null,
           "logBase": 1,
@@ -1244,7 +1238,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:3798",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -1364,7 +1357,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:4228",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -1373,7 +1365,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:4229",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -1491,7 +1482,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:4062",
           "decimals": null,
           "format": "short",
           "label": null,
@@ -1501,7 +1491,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:4063",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -1805,7 +1794,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:4147",
           "format": "ops",
           "label": null,
           "logBase": 1,
@@ -1814,7 +1802,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:4148",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -1923,7 +1910,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:4309",
           "decimals": null,
           "format": "percent",
           "label": "",
@@ -1933,7 +1919,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:4310",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -2043,7 +2028,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:4398",
           "format": "ops",
           "label": null,
           "logBase": 1,
@@ -2052,7 +2036,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:4399",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -2148,7 +2131,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:4479",
           "format": "ops",
           "label": null,
           "logBase": 1,
@@ -2157,7 +2139,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:4480",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -2269,7 +2250,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:4581",
           "decimals": null,
           "format": "short",
           "label": null,
@@ -2279,7 +2259,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:4582",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -2377,7 +2356,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:4664",
           "decimals": null,
           "format": "short",
           "label": null,
@@ -2387,7 +2365,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:4665",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -2621,7 +2598,6 @@
         "allValue": null,
         "current": {
           "selected": true,
-          "tags": [],
           "text": [
             "10.94.28.12:9256"
           ],
@@ -2708,7 +2684,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "F-Game进程详细数据",
+  "title": "进程详细数据",
   "uid": "oZpynZ7mz",
-  "version": 74
+  "version": 76
 }
