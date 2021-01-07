@@ -2,7 +2,6 @@
   "annotations": {
     "list": [
       {
-        "$$hashKey": "object:2875",
         "builtIn": 1,
         "datasource": "-- Grafana --",
         "enable": true,
@@ -17,11 +16,10 @@
   "editable": true,
   "gnetId": 8919,
   "graphTooltip": 0,
-  "id": 19,
-  "iteration": 1607341442204,
+  "id": 31,
+  "iteration": 1610000959394,
   "links": [
     {
-      "$$hashKey": "object:2300",
       "icon": "bolt",
       "tags": [],
       "targetBlank": true,
@@ -31,7 +29,6 @@
       "url": "https://grafana.com/dashboards/8919"
     },
     {
-      "$$hashKey": "object:2301",
       "icon": "question",
       "tags": [],
       "targetBlank": true,
@@ -41,7 +38,6 @@
       "url": "https://github.com/starsliao"
     },
     {
-      "$$hashKey": "object:2302",
       "asDropdown": true,
       "icon": "external link",
       "tags": [],
@@ -91,7 +87,6 @@
       },
       "styles": [
         {
-          "$$hashKey": "object:1808",
           "alias": "主机名",
           "align": "auto",
           "colorMode": null,
@@ -112,7 +107,6 @@
           "unit": "bytes"
         },
         {
-          "$$hashKey": "object:1809",
           "alias": "IP（链接到明细）",
           "align": "auto",
           "colorMode": null,
@@ -134,7 +128,6 @@
           "unit": "short"
         },
         {
-          "$$hashKey": "object:1810",
           "alias": "内存",
           "align": "auto",
           "colorMode": null,
@@ -153,7 +146,6 @@
           "unit": "bytes"
         },
         {
-          "$$hashKey": "object:1811",
           "alias": "CPU核",
           "align": "auto",
           "colorMode": null,
@@ -171,7 +163,6 @@
           "unit": "short"
         },
         {
-          "$$hashKey": "object:1812",
           "alias": " 运行时间",
           "align": "auto",
           "colorMode": null,
@@ -189,7 +180,6 @@
           "unit": "s"
         },
         {
-          "$$hashKey": "object:1813",
           "alias": "分区使用率*",
           "align": "auto",
           "colorMode": "cell",
@@ -210,7 +200,6 @@
           "unit": "percent"
         },
         {
-          "$$hashKey": "object:1814",
           "alias": "CPU使用率",
           "align": "auto",
           "colorMode": "cell",
@@ -231,7 +220,6 @@
           "unit": "percent"
         },
         {
-          "$$hashKey": "object:1815",
           "alias": "内存使用率",
           "align": "auto",
           "colorMode": "cell",
@@ -252,7 +240,6 @@
           "unit": "percent"
         },
         {
-          "$$hashKey": "object:1816",
           "alias": "磁盘读取*",
           "align": "auto",
           "colorMode": "cell",
@@ -273,7 +260,6 @@
           "unit": "Bps"
         },
         {
-          "$$hashKey": "object:1817",
           "alias": "磁盘写入*",
           "align": "auto",
           "colorMode": "cell",
@@ -294,7 +280,6 @@
           "unit": "Bps"
         },
         {
-          "$$hashKey": "object:1818",
           "alias": "下载带宽*",
           "align": "auto",
           "colorMode": "cell",
@@ -315,7 +300,6 @@
           "unit": "bps"
         },
         {
-          "$$hashKey": "object:1819",
           "alias": "上传带宽*",
           "align": "auto",
           "colorMode": "cell",
@@ -336,7 +320,6 @@
           "unit": "bps"
         },
         {
-          "$$hashKey": "object:1820",
           "alias": "5m负载",
           "align": "auto",
           "colorMode": null,
@@ -354,7 +337,6 @@
           "unit": "short"
         },
         {
-          "$$hashKey": "object:1821",
           "alias": "连接数",
           "align": "auto",
           "colorMode": "cell",
@@ -375,7 +357,6 @@
           "unit": "short"
         },
         {
-          "$$hashKey": "object:1822",
           "alias": "TCP_tw",
           "align": "center",
           "colorMode": "cell",
@@ -396,7 +377,6 @@
           "unit": "short"
         },
         {
-          "$$hashKey": "object:1823",
           "alias": "",
           "align": "right",
           "colorMode": null,
@@ -852,7 +832,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:10865",
           "format": "bps",
           "label": "上传（-）/下载（+）",
           "logBase": 1,
@@ -861,7 +840,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:10866",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -1148,7 +1126,6 @@
       },
       "styles": [
         {
-          "$$hashKey": "object:307",
           "alias": "分区",
           "align": "auto",
           "colorMode": null,
@@ -1168,7 +1145,6 @@
           "unit": "bytes"
         },
         {
-          "$$hashKey": "object:308",
           "alias": "可用空间",
           "align": "auto",
           "colorMode": "value",
@@ -1189,7 +1165,6 @@
           "unit": "bytes"
         },
         {
-          "$$hashKey": "object:309",
           "alias": "使用率",
           "align": "auto",
           "colorMode": "cell",
@@ -1210,7 +1185,6 @@
           "unit": "percent"
         },
         {
-          "$$hashKey": "object:310",
           "alias": "总空间",
           "align": "auto",
           "colorMode": null,
@@ -1229,7 +1203,6 @@
           "unit": "bytes"
         },
         {
-          "$$hashKey": "object:311",
           "alias": "文件系统",
           "align": "auto",
           "colorMode": null,
@@ -1248,7 +1221,6 @@
           "unit": "short"
         },
         {
-          "$$hashKey": "object:312",
           "alias": "设备名",
           "align": "auto",
           "colorMode": null,
@@ -1269,7 +1241,6 @@
           "unit": "short"
         },
         {
-          "$$hashKey": "object:313",
           "alias": "",
           "align": "auto",
           "colorMode": null,
@@ -1332,7 +1303,6 @@
           "custom": {},
           "mappings": [
             {
-              "$$hashKey": "object:193",
               "id": 0,
               "op": "=",
               "text": "N/A",
@@ -1411,7 +1381,6 @@
           "custom": {},
           "mappings": [
             {
-              "$$hashKey": "object:271",
               "id": 0,
               "op": "=",
               "text": "N/A",
@@ -1481,6 +1450,117 @@
       "type": "stat"
     },
     {
+      "aliasColors": {},
+      "bars": false,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fieldConfig": {
+        "defaults": {
+          "custom": {},
+          "links": []
+        },
+        "overrides": []
+      },
+      "fill": 1,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 20
+      },
+      "hiddenSeries": false,
+      "id": 9,
+      "legend": {
+        "alignAsTable": true,
+        "avg": true,
+        "current": true,
+        "hideEmpty": true,
+        "hideZero": true,
+        "max": true,
+        "min": true,
+        "rightSide": true,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": true,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "alertThreshold": true
+      },
+      "percentage": false,
+      "pluginVersion": "7.3.4",
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "repeat": "node",
+      "repeatDirection": "v",
+      "scopedVars": {
+        "node": {
+          "selected": true,
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
+        }
+      },
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "expr": "irate(node_cpu_seconds_total{instance=~\"$node\",mode=\"user\"}[1m])",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "{{instance}}_cpu{{cpu}}",
+          "refId": "A"
+        }
+      ],
+      "thresholds": [],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "$node : 单核CPU使用率 用户态",
+      "tooltip": {
+        "shared": true,
+        "sort": 2,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "decimals": 2,
+          "format": "percentunit",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": false
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
       "aliasColors": {
         "192.168.200.241:9100_Total": "dark-red",
         "Idle - Waiting for something to happen": "#052B51",
@@ -1512,9 +1592,9 @@
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
+        "h": 8,
+        "w": 12,
+        "x": 12,
         "y": 20
       },
       "hiddenSeries": false,
@@ -1553,13 +1633,13 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.94.28.12:9100",
-          "value": "10.94.28.12:9100"
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
         }
       },
       "seriesOverrides": [
         {
-          "alias": "/.*总使用率/",
+          "alias": "/.*_Total/",
           "color": "#C4162A",
           "fill": 0
         }
@@ -1569,53 +1649,22 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "avg(rate(node_cpu_seconds_total{instance=~\"$node\",mode=\"system\"}[$interval])) by (instance) *100",
+          "expr": "irate(node_cpu_seconds_total{instance=~\"$node\",mode=\"system\"}[1m])",
           "format": "time_series",
           "hide": false,
           "instant": false,
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "{{instance}}:系统使用率",
+          "legendFormat": "{{instance}}_cpu{{cpu}}",
           "refId": "A",
           "step": 20
-        },
-        {
-          "expr": "avg(rate(node_cpu_seconds_total{instance=~\"$node\",mode=\"user\"}[$interval])) by (instance) *100",
-          "format": "time_series",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:用户使用率",
-          "refId": "B",
-          "step": 240
-        },
-        {
-          "expr": "avg(rate(node_cpu_seconds_total{instance=~\"$node\",mode=\"iowait\"}[$interval])) by (instance) *100",
-          "format": "time_series",
-          "hide": false,
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:磁盘IO使用率",
-          "refId": "D",
-          "step": 240
-        },
-        {
-          "expr": "(1 - avg(rate(node_cpu_seconds_total{instance=~\"$node\",mode=\"idle\"}[$interval])) by (instance))*100",
-          "format": "time_series",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:总使用率",
-          "refId": "F",
-          "step": 240
         }
       ],
       "thresholds": [],
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "$node : CPU使用率",
+      "title": "$node : 单核CPU使用率 内核态",
       "tooltip": {
         "shared": true,
         "sort": 2,
@@ -1631,9 +1680,8 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:11294",
-          "decimals": 0,
-          "format": "percent",
+          "decimals": 2,
+          "format": "percentunit",
           "label": "",
           "logBase": 1,
           "max": null,
@@ -1641,183 +1689,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:11295",
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": false
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {
-        "192.168.200.241:9100_Total": "dark-red",
-        "Idle - Waiting for something to happen": "#052B51",
-        "guest": "#9AC48A",
-        "idle": "#052B51",
-        "iowait": "#EAB839",
-        "irq": "#BF1B00",
-        "nice": "#C15C17",
-        "sdb_每秒I/O操作%": "#d683ce",
-        "softirq": "#E24D42",
-        "steal": "#FCE2DE",
-        "system": "#508642",
-        "user": "#5195CE",
-        "磁盘花费在I/O操作占比": "#ba43a9"
-      },
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus",
-      "decimals": 2,
-      "description": "",
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 1,
-      "fillGradient": 0,
-      "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
-        "y": 27
-      },
-      "hiddenSeries": false,
-      "id": 198,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": true,
-        "hideZero": true,
-        "max": true,
-        "min": true,
-        "rightSide": true,
-        "show": true,
-        "sideWidth": null,
-        "sort": "current",
-        "sortDesc": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 2,
-      "links": [],
-      "maxPerRow": 6,
-      "nullPointMode": "null",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.3.4",
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "repeatDirection": "v",
-      "repeatIteration": 1607341442204,
-      "repeatPanelId": 7,
-      "scopedVars": {
-        "node": {
-          "selected": true,
-          "text": "10.94.28.239:9100",
-          "value": "10.94.28.239:9100"
-        }
-      },
-      "seriesOverrides": [
-        {
-          "alias": "/.*总使用率/",
-          "color": "#C4162A",
-          "fill": 0
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "expr": "avg(rate(node_cpu_seconds_total{instance=~\"$node\",mode=\"system\"}[$interval])) by (instance) *100",
-          "format": "time_series",
-          "hide": false,
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:系统使用率",
-          "refId": "A",
-          "step": 20
-        },
-        {
-          "expr": "avg(rate(node_cpu_seconds_total{instance=~\"$node\",mode=\"user\"}[$interval])) by (instance) *100",
-          "format": "time_series",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:用户使用率",
-          "refId": "B",
-          "step": 240
-        },
-        {
-          "expr": "avg(rate(node_cpu_seconds_total{instance=~\"$node\",mode=\"iowait\"}[$interval])) by (instance) *100",
-          "format": "time_series",
-          "hide": false,
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:磁盘IO使用率",
-          "refId": "D",
-          "step": 240
-        },
-        {
-          "expr": "(1 - avg(rate(node_cpu_seconds_total{instance=~\"$node\",mode=\"idle\"}[$interval])) by (instance))*100",
-          "format": "time_series",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:总使用率",
-          "refId": "F",
-          "step": 240
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "$node : CPU使用率",
-      "tooltip": {
-        "shared": true,
-        "sort": 2,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:11294",
-          "decimals": 0,
-          "format": "percent",
-          "label": "",
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        },
-        {
-          "$$hashKey": "object:11295",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -1861,7 +1732,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 34
+        "y": 28
       },
       "height": "300",
       "hiddenSeries": false,
@@ -1898,8 +1769,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.94.28.12:9100",
-          "value": "10.94.28.12:9100"
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
         }
       },
       "seriesOverrides": [
@@ -2021,7 +1892,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:10699",
           "format": "bytes",
           "label": null,
           "logBase": 1,
@@ -2030,221 +1900,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:10700",
-          "format": "percent",
-          "label": "内存使用率",
-          "logBase": 1,
-          "max": "100",
-          "min": "0",
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {
-        "192.168.200.241:9100_总内存": "dark-red",
-        "使用率": "yellow",
-        "内存_Avaliable": "#6ED0E0",
-        "内存_Cached": "#EF843C",
-        "内存_Free": "#629E51",
-        "内存_Total": "#6d1f62",
-        "内存_Used": "#eab839",
-        "可用": "#9ac48a",
-        "总内存": "#bf1b00"
-      },
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus",
-      "decimals": 2,
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 1,
-      "fillGradient": 0,
-      "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
-        "y": 41
-      },
-      "height": "300",
-      "hiddenSeries": false,
-      "id": 199,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": true,
-        "hideZero": true,
-        "max": true,
-        "min": true,
-        "rightSide": true,
-        "show": true,
-        "sort": "current",
-        "sortDesc": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 2,
-      "links": [],
-      "nullPointMode": "null",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.3.4",
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "repeatDirection": "v",
-      "repeatIteration": 1607341442204,
-      "repeatPanelId": 156,
-      "scopedVars": {
-        "node": {
-          "selected": true,
-          "text": "10.94.28.239:9100",
-          "value": "10.94.28.239:9100"
-        }
-      },
-      "seriesOverrides": [
-        {
-          "alias": "总内存",
-          "color": "#C4162A",
-          "fill": 0
-        },
-        {
-          "alias": "使用率",
-          "color": "rgb(0, 209, 255)",
-          "lines": false,
-          "pointradius": 1,
-          "points": true,
-          "yaxis": 2
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "expr": "node_memory_MemTotal_bytes{instance=~\"$node\"}",
-          "format": "time_series",
-          "hide": false,
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:总内存",
-          "refId": "A",
-          "step": 4
-        },
-        {
-          "expr": "node_memory_MemTotal_bytes{instance=~\"$node\"} - node_memory_MemAvailable_bytes{instance=~\"$node\"}",
-          "format": "time_series",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:已用",
-          "refId": "B",
-          "step": 4
-        },
-        {
-          "expr": "node_memory_MemAvailable_bytes{instance=~\"$node\"}",
-          "format": "time_series",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:可用",
-          "refId": "F",
-          "step": 4
-        },
-        {
-          "expr": "node_memory_Buffers_bytes{instance=~\"$node\"}",
-          "format": "time_series",
-          "hide": true,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:内存_Buffers",
-          "refId": "D",
-          "step": 4
-        },
-        {
-          "expr": "node_memory_MemFree_bytes{instance=~\"$node\"}",
-          "format": "time_series",
-          "hide": true,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:内存_Free",
-          "refId": "C",
-          "step": 4
-        },
-        {
-          "expr": "node_memory_Cached_bytes{instance=~\"$node\"}",
-          "format": "time_series",
-          "hide": true,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:内存_Cached",
-          "refId": "E",
-          "step": 4
-        },
-        {
-          "expr": "node_memory_MemTotal_bytes{instance=~\"$node\"} - (node_memory_Cached_bytes{instance=~\"$node\"} + node_memory_Buffers_bytes{instance=~\"$node\"} + node_memory_MemFree_bytes{instance=~\"$node\"})",
-          "format": "time_series",
-          "hide": true,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "",
-          "refId": "G"
-        },
-        {
-          "expr": "(1 - (node_memory_MemAvailable_bytes{instance=~\"$node\"} / (node_memory_MemTotal_bytes{instance=~\"$node\"})))* 100",
-          "format": "time_series",
-          "hide": false,
-          "interval": "30m",
-          "intervalFactor": 10,
-          "legendFormat": "{{instance}}:使用率",
-          "refId": "H"
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "$node : 内存信息",
-      "tooltip": {
-        "shared": true,
-        "sort": 2,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:10699",
-          "format": "bytes",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": "0",
-          "show": true
-        },
-        {
-          "$$hashKey": "object:10700",
           "format": "percent",
           "label": "内存使用率",
           "logBase": 1,
@@ -2285,7 +1940,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 48
+        "y": 35
       },
       "height": "300",
       "hiddenSeries": false,
@@ -2323,8 +1978,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.94.28.12:9100",
-          "value": "10.94.28.12:9100"
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
         }
       },
       "seriesOverrides": [
@@ -2401,7 +2056,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:11027",
           "format": "short",
           "logBase": 1,
           "max": null,
@@ -2409,172 +2063,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:11028",
-          "format": "short",
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {
-        "15分钟": "#6ED0E0",
-        "1分钟": "#BF1B00",
-        "5分钟": "#CCA300"
-      },
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus",
-      "decimals": 2,
-      "editable": true,
-      "error": false,
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 1,
-      "fillGradient": 1,
-      "grid": {},
-      "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
-        "y": 55
-      },
-      "height": "300",
-      "hiddenSeries": false,
-      "id": 200,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": true,
-        "hideZero": true,
-        "max": true,
-        "min": true,
-        "rightSide": true,
-        "show": true,
-        "sort": "current",
-        "sortDesc": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 2,
-      "links": [],
-      "maxPerRow": 6,
-      "nullPointMode": "null as zero",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.3.4",
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "repeatDirection": "v",
-      "repeatIteration": 1607341442204,
-      "repeatPanelId": 13,
-      "scopedVars": {
-        "node": {
-          "selected": true,
-          "text": "10.94.28.239:9100",
-          "value": "10.94.28.239:9100"
-        }
-      },
-      "seriesOverrides": [
-        {
-          "alias": "/.*总核数/",
-          "color": "#C4162A"
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "expr": "node_load1{instance=~\"$node\"}",
-          "format": "time_series",
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:1分钟负载",
-          "metric": "",
-          "refId": "A",
-          "step": 20,
-          "target": ""
-        },
-        {
-          "expr": "node_load5{instance=~\"$node\"}",
-          "format": "time_series",
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:5分钟负载",
-          "refId": "B",
-          "step": 20
-        },
-        {
-          "expr": "node_load15{instance=~\"$node\"}",
-          "format": "time_series",
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:15分钟负载",
-          "refId": "C",
-          "step": 20
-        },
-        {
-          "expr": " sum(count(node_cpu_seconds_total{instance=~\"$node\", mode='system'}) by (cpu,instance)) by(instance)",
-          "format": "time_series",
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:CPU总核数",
-          "refId": "D",
-          "step": 20
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "$node : 系统平均负载",
-      "tooltip": {
-        "msResolution": false,
-        "shared": true,
-        "sort": 2,
-        "value_type": "cumulative"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:11027",
-          "format": "short",
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        },
-        {
-          "$$hashKey": "object:11028",
           "format": "short",
           "logBase": 1,
           "max": null,
@@ -2610,7 +2098,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 62
+        "y": 42
       },
       "height": "300",
       "hiddenSeries": false,
@@ -2647,8 +2135,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.94.28.12:9100",
-          "value": "10.94.28.12:9100"
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
         }
       },
       "seriesOverrides": [
@@ -2701,7 +2189,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:11193",
           "decimals": null,
           "format": "Bps",
           "label": "读取（-）/写入（+）",
@@ -2711,146 +2198,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:11194",
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": false
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {
-        "vda_write": "#6ED0E0"
-      },
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus",
-      "decimals": 2,
-      "description": "Read bytes 每个磁盘分区每秒读取的比特数\nWritten bytes 每个磁盘分区每秒写入的比特数",
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 1,
-      "fillGradient": 1,
-      "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
-        "y": 69
-      },
-      "height": "300",
-      "hiddenSeries": false,
-      "id": 201,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": true,
-        "hideZero": true,
-        "max": true,
-        "min": true,
-        "rightSide": true,
-        "show": true,
-        "sort": "current",
-        "sortDesc": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 2,
-      "links": [],
-      "nullPointMode": "null",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.3.4",
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "repeatDirection": "v",
-      "repeatIteration": 1607341442204,
-      "repeatPanelId": 168,
-      "scopedVars": {
-        "node": {
-          "selected": true,
-          "text": "10.94.28.239:9100",
-          "value": "10.94.28.239:9100"
-        }
-      },
-      "seriesOverrides": [
-        {
-          "alias": "/.*_读取$/",
-          "transform": "negative-Y"
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "expr": "rate(node_disk_read_bytes_total{instance=~\"$node\"}[$interval])",
-          "format": "time_series",
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{device}}_读取",
-          "refId": "A",
-          "step": 10
-        },
-        {
-          "expr": "rate(node_disk_written_bytes_total{instance=~\"$node\"}[$interval])",
-          "format": "time_series",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{device}}_写入",
-          "refId": "B",
-          "step": 10
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "$node : 每秒磁盘读写容量",
-      "tooltip": {
-        "shared": true,
-        "sort": 2,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:11193",
-          "decimals": null,
-          "format": "Bps",
-          "label": "读取（-）/写入（+）",
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        },
-        {
-          "$$hashKey": "object:11194",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -2885,7 +2232,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 76
+        "y": 49
       },
       "hiddenSeries": false,
       "id": 174,
@@ -2922,8 +2269,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.94.28.12:9100",
-          "value": "10.94.28.12:9100"
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
         }
       },
       "seriesOverrides": [
@@ -2973,7 +2320,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:11266",
           "decimals": null,
           "format": "percent",
           "label": "",
@@ -2983,142 +2329,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:11267",
-          "decimals": 2,
-          "format": "percentunit",
-          "label": null,
-          "logBase": 1,
-          "max": "1",
-          "min": null,
-          "show": false
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {},
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus",
-      "decimals": 1,
-      "description": "",
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 0,
-      "fillGradient": 0,
-      "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
-        "y": 83
-      },
-      "hiddenSeries": false,
-      "id": 202,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": true,
-        "hideZero": true,
-        "max": true,
-        "min": true,
-        "rightSide": true,
-        "show": true,
-        "sideWidth": null,
-        "sort": "current",
-        "sortDesc": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 2,
-      "links": [],
-      "nullPointMode": "null",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.3.4",
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "repeatDirection": "v",
-      "repeatIteration": 1607341442204,
-      "repeatPanelId": 174,
-      "scopedVars": {
-        "node": {
-          "selected": true,
-          "text": "10.94.28.239:9100",
-          "value": "10.94.28.239:9100"
-        }
-      },
-      "seriesOverrides": [
-        {
-          "alias": "/Inodes.*/",
-          "yaxis": 2
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "expr": "(node_filesystem_size_bytes{instance=~'$node',fstype=~\"ext.*|xfs\",mountpoint !~\".*pod.*\"}-node_filesystem_free_bytes{instance=~'$node',fstype=~\"ext.*|xfs\",mountpoint !~\".*pod.*\"}) *100/(node_filesystem_avail_bytes {instance=~'$node',fstype=~\"ext.*|xfs\",mountpoint !~\".*pod.*\"}+(node_filesystem_size_bytes{instance=~'$node',fstype=~\"ext.*|xfs\",mountpoint !~\".*pod.*\"}-node_filesystem_free_bytes{instance=~'$node',fstype=~\"ext.*|xfs\",mountpoint !~\".*pod.*\"}))",
-          "format": "time_series",
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{mountpoint}}",
-          "refId": "A"
-        },
-        {
-          "expr": "node_filesystem_files_free{instance=~'$node',fstype=~\"ext.?|xfs\"} / node_filesystem_files{instance=~'$node',fstype=~\"ext.?|xfs\"}",
-          "hide": true,
-          "interval": "",
-          "legendFormat": "{{instance}}:Inodes：{{instance}}：{{mountpoint}}",
-          "refId": "B"
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "$node : 磁盘使用率",
-      "tooltip": {
-        "shared": true,
-        "sort": 2,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:11266",
-          "decimals": null,
-          "format": "percent",
-          "label": "",
-          "logBase": 1,
-          "max": "100",
-          "min": "0",
-          "show": true
-        },
-        {
-          "$$hashKey": "object:11267",
           "decimals": 2,
           "format": "percentunit",
           "label": null,
@@ -3156,7 +2366,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 90
+        "y": 56
       },
       "height": "300",
       "hiddenSeries": false,
@@ -3193,8 +2403,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.94.28.12:9100",
-          "value": "10.94.28.12:9100"
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
         }
       },
       "seriesOverrides": [
@@ -3257,7 +2467,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:11339",
           "decimals": null,
           "format": "iops",
           "label": "读取（-）/写入（+）I/O ops/sec",
@@ -3267,156 +2476,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:11340",
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {
-        "vda_write": "#6ED0E0"
-      },
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus",
-      "decimals": 2,
-      "description": "Reads completed: 每个磁盘分区每秒读完成次数\n\nWrites completed: 每个磁盘分区每秒写完成次数\n\nIO now 每个磁盘分区每秒正在处理的输入/输出请求数",
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 0,
-      "fillGradient": 0,
-      "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
-        "y": 97
-      },
-      "height": "300",
-      "hiddenSeries": false,
-      "id": 203,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": true,
-        "hideZero": true,
-        "max": true,
-        "min": true,
-        "rightSide": true,
-        "show": true,
-        "sort": "current",
-        "sortDesc": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 1,
-      "links": [],
-      "nullPointMode": "null",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.3.4",
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "repeatDirection": "v",
-      "repeatIteration": 1607341442204,
-      "repeatPanelId": 161,
-      "scopedVars": {
-        "node": {
-          "selected": true,
-          "text": "10.94.28.239:9100",
-          "value": "10.94.28.239:9100"
-        }
-      },
-      "seriesOverrides": [
-        {
-          "alias": "/.*_读取$/",
-          "transform": "negative-Y"
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "expr": "rate(node_disk_reads_completed_total{instance=~\"$node\"}[$interval])",
-          "format": "time_series",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{device}}_读取",
-          "refId": "A",
-          "step": 10
-        },
-        {
-          "expr": "rate(node_disk_writes_completed_total{instance=~\"$node\"}[$interval])",
-          "format": "time_series",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{device}}_写入",
-          "refId": "B",
-          "step": 10
-        },
-        {
-          "expr": "node_disk_io_now{instance=~\"$node\"}",
-          "format": "time_series",
-          "hide": true,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{device}}",
-          "refId": "C"
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "$node : 磁盘读写速率（IOPS）",
-      "tooltip": {
-        "shared": true,
-        "sort": 2,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:11339",
-          "decimals": null,
-          "format": "iops",
-          "label": "读取（-）/写入（+）I/O ops/sec",
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        },
-        {
-          "$$hashKey": "object:11340",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -3464,7 +2523,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 104
+        "y": 63
       },
       "hiddenSeries": false,
       "id": 175,
@@ -3502,8 +2561,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.94.28.12:9100",
-          "value": "10.94.28.12:9100"
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
         }
       },
       "seriesOverrides": [],
@@ -3540,7 +2599,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:11417",
           "decimals": null,
           "format": "percentunit",
           "label": "",
@@ -3550,142 +2608,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:11418",
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": false
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {
-        "Idle - Waiting for something to happen": "#052B51",
-        "guest": "#9AC48A",
-        "idle": "#052B51",
-        "iowait": "#EAB839",
-        "irq": "#BF1B00",
-        "nice": "#C15C17",
-        "sdb_每秒I/O操作%": "#d683ce",
-        "softirq": "#E24D42",
-        "steal": "#FCE2DE",
-        "system": "#508642",
-        "user": "#5195CE",
-        "磁盘花费在I/O操作占比": "#ba43a9"
-      },
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus",
-      "decimals": null,
-      "description": "每一秒钟的自然时间内，花费在I/O上的耗时。（wall-clock time）\n\nnode_disk_io_time_seconds_total：\n磁盘花费在输入/输出操作上的秒数。该值为累加值。（Milliseconds Spent Doing I/Os）\n\nrate(node_disk_io_time_seconds_total[1m])：\n计算每秒的速率：(last值-last前一个值)/时间戳差值，即：1秒钟内磁盘花费在I/O操作的时间占比。",
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 1,
-      "fillGradient": 0,
-      "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
-        "y": 111
-      },
-      "hiddenSeries": false,
-      "id": 204,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": true,
-        "hideZero": true,
-        "max": true,
-        "min": false,
-        "rightSide": true,
-        "show": true,
-        "sideWidth": null,
-        "sort": null,
-        "sortDesc": null,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 1,
-      "links": [],
-      "maxPerRow": 6,
-      "nullPointMode": "null",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.3.4",
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "repeatDirection": "v",
-      "repeatIteration": 1607341442204,
-      "repeatPanelId": 175,
-      "scopedVars": {
-        "node": {
-          "selected": true,
-          "text": "10.94.28.239:9100",
-          "value": "10.94.28.239:9100"
-        }
-      },
-      "seriesOverrides": [],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "expr": "rate(node_disk_io_time_seconds_total{instance=~\"$node\"}[$interval])",
-          "format": "time_series",
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{device}}_每秒I/O操作%",
-          "refId": "C"
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "$node : 每1秒内I/O操作耗时占比",
-      "tooltip": {
-        "shared": true,
-        "sort": 2,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:11417",
-          "decimals": null,
-          "format": "percentunit",
-          "label": "",
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        },
-        {
-          "$$hashKey": "object:11418",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -3722,7 +2644,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 118
+        "y": 70
       },
       "height": "300",
       "hiddenSeries": false,
@@ -3759,8 +2681,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.94.28.12:9100",
-          "value": "10.94.28.12:9100"
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
         }
       },
       "seriesOverrides": [
@@ -3833,7 +2755,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:11579",
           "format": "s",
           "label": "读取（-）/写入（+）",
           "logBase": 1,
@@ -3842,165 +2763,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:11580",
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": false
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {
-        "vda": "#6ED0E0"
-      },
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus",
-      "decimals": 2,
-      "description": "Read time seconds 每个磁盘分区读操作花费的秒数\n\nWrite time seconds 每个磁盘分区写操作花费的秒数\n\nIO time seconds 每个磁盘分区输入/输出操作花费的秒数\n\nIO time weighted seconds每个磁盘分区输入/输出操作花费的加权秒数",
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 1,
-      "fillGradient": 1,
-      "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
-        "y": 125
-      },
-      "height": "300",
-      "hiddenSeries": false,
-      "id": 205,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": true,
-        "hideZero": true,
-        "max": true,
-        "min": true,
-        "rightSide": true,
-        "show": true,
-        "sort": "current",
-        "sortDesc": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 2,
-      "links": [],
-      "nullPointMode": "null as zero",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.3.4",
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "repeatDirection": "v",
-      "repeatIteration": 1607341442204,
-      "repeatPanelId": 160,
-      "scopedVars": {
-        "node": {
-          "selected": true,
-          "text": "10.94.28.239:9100",
-          "value": "10.94.28.239:9100"
-        }
-      },
-      "seriesOverrides": [
-        {
-          "alias": "/,*_读取$/",
-          "transform": "negative-Y"
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "expr": "rate(node_disk_read_time_seconds_total{instance=~\"$node\"}[$interval]) / rate(node_disk_reads_completed_total{instance=~\"$node\"}[$interval])",
-          "format": "time_series",
-          "hide": false,
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{device}}_读取",
-          "refId": "B"
-        },
-        {
-          "expr": "rate(node_disk_write_time_seconds_total{instance=~\"$node\"}[$interval]) / rate(node_disk_writes_completed_total{instance=~\"$node\"}[$interval])",
-          "format": "time_series",
-          "hide": false,
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{device}}_写入",
-          "refId": "C"
-        },
-        {
-          "expr": "rate(node_disk_io_time_seconds_total{instance=~\"$node\"}[$interval])",
-          "format": "time_series",
-          "hide": true,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{device}}",
-          "refId": "A",
-          "step": 10
-        },
-        {
-          "expr": "rate(node_disk_io_time_weighted_seconds_total{instance=~\"$node\"}[$interval])",
-          "format": "time_series",
-          "hide": true,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:{{device}}_加权",
-          "refId": "D"
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "$node : 每次IO读写的耗时（参考：小于100ms）(beta)",
-      "tooltip": {
-        "shared": true,
-        "sort": 2,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:11579",
-          "format": "s",
-          "label": "读取（-）/写入（+）",
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        },
-        {
-          "$$hashKey": "object:11580",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -4039,7 +2801,7 @@
         "h": 6,
         "w": 24,
         "x": 0,
-        "y": 132
+        "y": 77
       },
       "height": "300",
       "hiddenSeries": false,
@@ -4078,8 +2840,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.94.28.12:9100",
-          "value": "10.94.28.12:9100"
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
         }
       },
       "seriesOverrides": [
@@ -4197,7 +2959,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:2374",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -4206,214 +2967,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:2375",
-          "format": "short",
-          "label": "已使用的所有协议套接字总量",
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {
-        "192.168.200.241:9100_TCP_alloc": "semi-dark-blue",
-        "TCP": "#6ED0E0",
-        "TCP_alloc": "blue"
-      },
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus",
-      "decimals": 2,
-      "description": "Sockets_used - 已使用的所有协议套接字总量\n\nCurrEstab - 当前状态为 ESTABLISHED 或 CLOSE-WAIT 的 TCP 连接数\n\nTCP_alloc - 已分配（已建立、已申请到sk_buff）的TCP套接字数量\n\nTCP_tw - 等待关闭的TCP连接数\n\nUDP_inuse - 正在使用的 UDP 套接字数量\n\nRetransSegs - TCP 重传报文数\n\nOutSegs - TCP 发送的报文数\n\nInSegs - TCP 接收的报文数",
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 0,
-      "fillGradient": 0,
-      "gridPos": {
-        "h": 6,
-        "w": 24,
-        "x": 0,
-        "y": 138
-      },
-      "height": "300",
-      "hiddenSeries": false,
-      "id": 206,
-      "interval": "",
-      "legend": {
-        "alignAsTable": true,
-        "avg": false,
-        "current": true,
-        "hideEmpty": true,
-        "hideZero": true,
-        "max": true,
-        "min": false,
-        "rightSide": true,
-        "show": true,
-        "sideWidth": null,
-        "sort": "current",
-        "sortDesc": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 1,
-      "links": [],
-      "nullPointMode": "null",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.3.4",
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "repeatDirection": "v",
-      "repeatIteration": 1607341442204,
-      "repeatPanelId": 158,
-      "scopedVars": {
-        "node": {
-          "selected": true,
-          "text": "10.94.28.239:9100",
-          "value": "10.94.28.239:9100"
-        }
-      },
-      "seriesOverrides": [
-        {
-          "alias": "/.*Sockets_used/",
-          "color": "#E02F44",
-          "lines": false,
-          "pointradius": 1,
-          "points": true,
-          "yaxis": 2
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "expr": "node_netstat_Tcp_CurrEstab{instance=~'$node'}",
-          "format": "time_series",
-          "hide": false,
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:CurrEstab",
-          "refId": "A",
-          "step": 20
-        },
-        {
-          "expr": "node_sockstat_TCP_tw{instance=~'$node'}",
-          "format": "time_series",
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:TCP_tw",
-          "refId": "D"
-        },
-        {
-          "expr": "node_sockstat_sockets_used{instance=~'$node'}",
-          "hide": false,
-          "interval": "30m",
-          "intervalFactor": 1,
-          "legendFormat": "{{instance}}:Sockets_used",
-          "refId": "B"
-        },
-        {
-          "expr": "node_sockstat_UDP_inuse{instance=~'$node'}",
-          "interval": "",
-          "legendFormat": "{{instance}}:UDP_inuse",
-          "refId": "C"
-        },
-        {
-          "expr": "node_sockstat_TCP_alloc{instance=~'$node'}",
-          "interval": "",
-          "legendFormat": "{{instance}}:TCP_alloc",
-          "refId": "E"
-        },
-        {
-          "expr": "rate(node_netstat_Tcp_PassiveOpens{instance=~'$node'}[$interval])",
-          "hide": true,
-          "interval": "",
-          "legendFormat": "{{instance}}_Tcp_PassiveOpens",
-          "refId": "G"
-        },
-        {
-          "expr": "rate(node_netstat_Tcp_ActiveOpens{instance=~'$node'}[$interval])",
-          "hide": true,
-          "interval": "",
-          "legendFormat": "{{instance}}_Tcp_ActiveOpens",
-          "refId": "F"
-        },
-        {
-          "expr": "rate(node_netstat_Tcp_InSegs{instance=~'$node'}[$interval])",
-          "interval": "",
-          "legendFormat": "{{instance}}:Tcp_InSegs",
-          "refId": "H"
-        },
-        {
-          "expr": "rate(node_netstat_Tcp_OutSegs{instance=~'$node'}[$interval])",
-          "interval": "",
-          "legendFormat": "{{instance}}:Tcp_OutSegs",
-          "refId": "I"
-        },
-        {
-          "expr": "rate(node_netstat_Tcp_RetransSegs{instance=~'$node'}[$interval])",
-          "hide": false,
-          "interval": "",
-          "legendFormat": "{{instance}}:Tcp_RetransSegs",
-          "refId": "J"
-        },
-        {
-          "expr": "rate(node_netstat_TcpExt_ListenDrops{instance=~'$node'}[$interval])",
-          "hide": true,
-          "interval": "",
-          "legendFormat": "",
-          "refId": "K"
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "$node : 网络Socket连接信息",
-      "tooltip": {
-        "shared": true,
-        "sort": 2,
-        "value_type": "individual"
-      },
-      "transformations": [],
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:2374",
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        },
-        {
-          "$$hashKey": "object:2375",
           "format": "short",
           "label": "已使用的所有协议套接字总量",
           "logBase": 1,
@@ -4454,7 +3007,7 @@
         "h": 6,
         "w": 24,
         "x": 0,
-        "y": 144
+        "y": 83
       },
       "hiddenSeries": false,
       "hideTimeOverride": false,
@@ -4487,8 +3040,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.94.28.12:9100",
-          "value": "10.94.28.12:9100"
+          "text": "10.119.127.42:9100",
+          "value": "10.119.127.42:9100"
         }
       },
       "seriesOverrides": [
@@ -4556,7 +3109,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:11740",
           "format": "short",
           "label": "使用的文件描述符",
           "logBase": 1,
@@ -4565,160 +3117,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:11741",
-          "format": "short",
-          "label": "context_switches",
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    },
-    {
-      "aliasColors": {
-        "filefd_192.168.200.241:9100": "super-light-green",
-        "switches_192.168.200.241:9100": "semi-dark-red",
-        "使用的文件描述符_10.118.72.128:9100": "red",
-        "每秒上下文切换次数_10.118.71.245:9100": "yellow",
-        "每秒上下文切换次数_10.118.72.128:9100": "yellow"
-      },
-      "bars": false,
-      "cacheTimeout": null,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus",
-      "description": "",
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 0,
-      "fillGradient": 1,
-      "gridPos": {
-        "h": 6,
-        "w": 24,
-        "x": 0,
-        "y": 150
-      },
-      "hiddenSeries": false,
-      "hideTimeOverride": false,
-      "id": 207,
-      "legend": {
-        "alignAsTable": true,
-        "avg": false,
-        "current": true,
-        "max": false,
-        "min": false,
-        "rightSide": true,
-        "show": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 2,
-      "links": [],
-      "nullPointMode": "null",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.3.4",
-      "pointradius": 1,
-      "points": false,
-      "renderer": "flot",
-      "repeatDirection": "v",
-      "repeatIteration": 1607341442204,
-      "repeatPanelId": 16,
-      "scopedVars": {
-        "node": {
-          "selected": true,
-          "text": "10.94.28.239:9100",
-          "value": "10.94.28.239:9100"
-        }
-      },
-      "seriesOverrides": [
-        {
-          "alias": "/每秒上下文切换次数.*/",
-          "color": "#FADE2A",
-          "lines": false,
-          "pointradius": 1,
-          "points": true,
-          "yaxis": 2
-        },
-        {
-          "alias": "/使用的文件描述符.*/",
-          "color": "#F2495C"
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "expr": "node_filefd_allocated{instance=~\"$node\"}",
-          "format": "time_series",
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 5,
-          "legendFormat": "{{instance}}:使用的文件描述符",
-          "refId": "B"
-        },
-        {
-          "expr": "rate(node_context_switches_total{instance=~\"$node\"}[$interval])",
-          "interval": "",
-          "intervalFactor": 5,
-          "legendFormat": "{{instance}}:每秒上下文切换次数",
-          "refId": "A"
-        },
-        {
-          "expr": "  (node_filefd_allocated{instance=~\"$node\"}/node_filefd_maximum{instance=~\"$node\"}) *100",
-          "format": "time_series",
-          "hide": true,
-          "instant": false,
-          "interval": "",
-          "intervalFactor": 5,
-          "legendFormat": "{{instance}}:使用的文件描述符占比_{{instance}}",
-          "refId": "C"
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "$node : 打开的文件描述符(左 )/每秒上下文切换次数(右)",
-      "tooltip": {
-        "shared": true,
-        "sort": 2,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:11740",
-          "format": "short",
-          "label": "使用的文件描述符",
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        },
-        {
-          "$$hashKey": "object:11741",
           "format": "short",
           "label": "context_switches",
           "logBase": 1,
@@ -4767,7 +3165,7 @@
         "h": 7,
         "w": 8,
         "x": 0,
-        "y": 156
+        "y": 89
       },
       "hiddenSeries": false,
       "id": 191,
@@ -4870,7 +3268,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:8791",
           "decimals": null,
           "format": "short",
           "label": "总负载",
@@ -4880,7 +3277,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:8792",
           "decimals": 0,
           "format": "percent",
           "label": "平均使用率",
@@ -4924,7 +3320,7 @@
         "h": 7,
         "w": 8,
         "x": 8,
-        "y": 156
+        "y": 89
       },
       "height": "300",
       "hiddenSeries": false,
@@ -5023,7 +3419,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:8938",
           "decimals": null,
           "format": "bytes",
           "label": "总内存量",
@@ -5033,7 +3428,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:8939",
           "decimals": null,
           "format": "percent",
           "label": "平均使用率",
@@ -5069,7 +3463,7 @@
         "h": 7,
         "w": 8,
         "x": 16,
-        "y": 156
+        "y": 89
       },
       "hiddenSeries": false,
       "id": 197,
@@ -5166,7 +3560,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:8990",
           "decimals": 1,
           "format": "bytes",
           "label": "总磁盘量",
@@ -5176,7 +3569,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:8991",
           "decimals": null,
           "format": "percent",
           "label": "平均使用率",
@@ -5220,7 +3612,7 @@
         "h": 6,
         "w": 24,
         "x": 0,
-        "y": 163
+        "y": 96
       },
       "hiddenSeries": false,
       "id": 183,
@@ -5323,7 +3715,7 @@
       }
     }
   ],
-  "refresh": "15s",
+  "refresh": "30m",
   "schemaVersion": 26,
   "style": "dark",
   "tags": [
@@ -5421,12 +3813,10 @@
           "selected": true,
           "tags": [],
           "text": [
-            "10.94.28.239:9100",
-            "10.94.28.12:9100"
+            "10.119.127.42:9100"
           ],
           "value": [
-            "10.94.28.239:9100",
-            "10.94.28.12:9100"
+            "10.119.127.42:9100"
           ]
         },
         "datasource": "Prometheus",
@@ -5570,8 +3960,8 @@
         "allValue": null,
         "current": {
           "selected": false,
-          "text": "localhost",
-          "value": "localhost"
+          "text": "n119-127-042",
+          "value": "n119-127-042"
         },
         "datasource": "Prometheus",
         "definition": "label_values(node_uname_info{origin_prometheus=~\"$origin_prometheus\",job=~\"$job\",instance=~\"$node\"}, nodename)",
@@ -5597,8 +3987,8 @@
         "allValue": null,
         "current": {
           "selected": false,
-          "text": "2",
-          "value": "2"
+          "text": "9",
+          "value": "9"
         },
         "datasource": "Prometheus",
         "definition": "query_result(count(node_uname_info{origin_prometheus=~\"$origin_prometheus\",job=~\"$job\"}))",
@@ -5623,7 +4013,7 @@
     ]
   },
   "time": {
-    "from": "now-5m",
+    "from": "now-3h",
     "to": "now"
   },
   "timepicker": {
@@ -5651,7 +4041,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "F-Game整机数据",
-  "uid": "9CWBz0bik",
-  "version": 64
+  "title": "101-整机数据",
+  "uid": "101node",
+  "version": 12
 }
