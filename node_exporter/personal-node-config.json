@@ -17,7 +17,7 @@
   "gnetId": 8919,
   "graphTooltip": 0,
   "id": 31,
-  "iteration": 1610000959394,
+  "iteration": 1610276600341,
   "links": [
     {
       "icon": "bolt",
@@ -1703,6 +1703,139 @@
       }
     },
     {
+      "aliasColors": {},
+      "bars": false,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fieldConfig": {
+        "defaults": {
+          "custom": {}
+        },
+        "overrides": []
+      },
+      "fill": 1,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 28
+      },
+      "hiddenSeries": false,
+      "id": 199,
+      "legend": {
+        "alignAsTable": true,
+        "avg": true,
+        "current": true,
+        "max": true,
+        "min": true,
+        "rightSide": true,
+        "show": true,
+        "total": true,
+        "values": true
+      },
+      "lines": true,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "alertThreshold": true
+      },
+      "percentage": false,
+      "pluginVersion": "7.3.4",
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "repeat": "node",
+      "repeatDirection": "v",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "expr": "avg(irate(node_cpu_seconds_total{instance=~\"$node\",mode=\"system\"}[30m])) by (instance)",
+          "format": "time_series",
+          "hide": false,
+          "instant": false,
+          "interval": "",
+          "intervalFactor": 1,
+          "legendFormat": "{{instance}}_System",
+          "refId": "A",
+          "step": 20
+        },
+        {
+          "expr": "avg(irate(node_cpu_seconds_total{instance=~\"$node\",mode=\"user\"}[30m])) by (instance)",
+          "format": "time_series",
+          "hide": false,
+          "intervalFactor": 1,
+          "legendFormat": "{{instance}}_User",
+          "refId": "B",
+          "step": 240
+        },
+        {
+          "expr": "avg(irate(node_cpu_seconds_total{instance=~\"$node\",mode=\"iowait\"}[30m])) by (instance)",
+          "format": "time_series",
+          "hide": false,
+          "instant": false,
+          "intervalFactor": 1,
+          "legendFormat": "{{instance}}_Iowait",
+          "refId": "D",
+          "step": 240
+        },
+        {
+          "expr": "1 - avg(irate(node_cpu_seconds_total{instance=~\"$node\",mode=\"idle\"}[30m])) by (instance)",
+          "format": "time_series",
+          "hide": false,
+          "intervalFactor": 1,
+          "legendFormat": "{{instance}}_Total",
+          "refId": "F",
+          "step": 240
+        }
+      ],
+      "thresholds": [],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "$node : 整机CPU使用率",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "decimals": 2,
+          "format": "percentunit",
+          "label": "",
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": false
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
       "aliasColors": {
         "192.168.200.241:9100_总内存": "dark-red",
         "使用率": "yellow",
@@ -1732,7 +1865,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 28
+        "y": 36
       },
       "height": "300",
       "hiddenSeries": false,
@@ -1940,7 +2073,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 35
+        "y": 43
       },
       "height": "300",
       "hiddenSeries": false,
@@ -2098,7 +2231,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 42
+        "y": 50
       },
       "height": "300",
       "hiddenSeries": false,
@@ -2232,7 +2365,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 49
+        "y": 57
       },
       "hiddenSeries": false,
       "id": 174,
@@ -2366,7 +2499,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 56
+        "y": 64
       },
       "height": "300",
       "hiddenSeries": false,
@@ -2523,7 +2656,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 63
+        "y": 71
       },
       "hiddenSeries": false,
       "id": 175,
@@ -2644,7 +2777,7 @@
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 70
+        "y": 78
       },
       "height": "300",
       "hiddenSeries": false,
@@ -2801,7 +2934,7 @@
         "h": 6,
         "w": 24,
         "x": 0,
-        "y": 77
+        "y": 85
       },
       "height": "300",
       "hiddenSeries": false,
@@ -3007,7 +3140,7 @@
         "h": 6,
         "w": 24,
         "x": 0,
-        "y": 83
+        "y": 91
       },
       "hiddenSeries": false,
       "hideTimeOverride": false,
@@ -3165,7 +3298,7 @@
         "h": 7,
         "w": 8,
         "x": 0,
-        "y": 89
+        "y": 97
       },
       "hiddenSeries": false,
       "id": 191,
@@ -3320,7 +3453,7 @@
         "h": 7,
         "w": 8,
         "x": 8,
-        "y": 89
+        "y": 97
       },
       "height": "300",
       "hiddenSeries": false,
@@ -3463,7 +3596,7 @@
         "h": 7,
         "w": 8,
         "x": 16,
-        "y": 89
+        "y": 97
       },
       "hiddenSeries": false,
       "id": 197,
@@ -3612,7 +3745,7 @@
         "h": 6,
         "w": 24,
         "x": 0,
-        "y": 96
+        "y": 104
       },
       "hiddenSeries": false,
       "id": 183,
@@ -3728,6 +3861,7 @@
       {
         "allValue": "",
         "current": {
+          "isNone": true,
           "selected": false,
           "text": "None",
           "value": ""
@@ -3811,7 +3945,6 @@
         "allValue": null,
         "current": {
           "selected": true,
-          "tags": [],
           "text": [
             "10.119.127.42:9100"
           ],
@@ -3844,7 +3977,7 @@
         "allFormat": "glob",
         "allValue": null,
         "current": {
-          "selected": false,
+          "selected": true,
           "text": [
             "All"
           ],
@@ -4013,7 +4146,7 @@
     ]
   },
   "time": {
-    "from": "now-3h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {
@@ -4043,5 +4176,5 @@
   "timezone": "browser",
   "title": "101-整机数据",
   "uid": "101node",
-  "version": 12
+  "version": 18
 }
