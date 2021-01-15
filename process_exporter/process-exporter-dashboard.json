@@ -194,8 +194,8 @@
       "scopedVars": {
         "host": {
           "selected": true,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         }
       },
       "seriesOverrides": [],
@@ -327,8 +327,8 @@
       "scopedVars": {
         "host": {
           "selected": true,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         }
       },
       "seriesOverrides": [],
@@ -438,8 +438,8 @@
       "scopedVars": {
         "host": {
           "selected": true,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         }
       },
       "seriesOverrides": [],
@@ -574,8 +574,8 @@
       "scopedVars": {
         "host": {
           "selected": true,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         }
       },
       "seriesOverrides": [],
@@ -692,8 +692,8 @@
       "scopedVars": {
         "host": {
           "selected": true,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         }
       },
       "seriesOverrides": [],
@@ -810,8 +810,8 @@
       "scopedVars": {
         "host": {
           "selected": true,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         }
       },
       "seriesOverrides": [],
@@ -928,8 +928,8 @@
       "scopedVars": {
         "host": {
           "selected": true,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         }
       },
       "seriesOverrides": [],
@@ -1061,8 +1061,8 @@
       "scopedVars": {
         "host": {
           "selected": true,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         }
       },
       "seriesOverrides": [],
@@ -1178,8 +1178,8 @@
       "scopedVars": {
         "host": {
           "selected": true,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         }
       },
       "seriesOverrides": [],
@@ -1307,8 +1307,8 @@
       "scopedVars": {
         "host": {
           "selected": true,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         }
       },
       "seriesOverrides": [],
@@ -2587,8 +2587,8 @@
         "allValue": null,
         "current": {
           "selected": false,
-          "text": "10.94.28.12:9256",
-          "value": "10.94.28.12:9256"
+          "text": "127.0.0.1:9256",
+          "value": "127.0.0.1:9256"
         },
         "datasource": "Prometheus",
         "definition": "",
