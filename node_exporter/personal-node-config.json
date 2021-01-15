@@ -1501,8 +1501,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [],
@@ -1633,8 +1633,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [
@@ -1902,8 +1902,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [
@@ -2111,8 +2111,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [
@@ -2268,8 +2268,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [
@@ -2402,8 +2402,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [
@@ -2536,8 +2536,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [
@@ -2694,8 +2694,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [],
@@ -2814,8 +2814,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [
@@ -2973,8 +2973,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [
@@ -3173,8 +3173,8 @@
       "scopedVars": {
         "node": {
           "selected": true,
-          "text": "10.119.127.42:9100",
-          "value": "10.119.127.42:9100"
+          "text": "127.0.0.1:9100",
+          "value": "127.0.0.1:9100"
         }
       },
       "seriesOverrides": [
@@ -3946,10 +3946,10 @@
         "current": {
           "selected": true,
           "text": [
-            "10.119.127.42:9100"
+            "127.0.0.1:9100"
           ],
           "value": [
-            "10.119.127.42:9100"
+            "127.0.0.1:9100"
           ]
         },
         "datasource": "Prometheus",
