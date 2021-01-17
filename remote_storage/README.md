@@ -6,7 +6,7 @@
 
 1. docker启动influxdb (docker这里默认已经安装好)<br>
 ~~~bash
-$ cd /opt && wget docker-compose.yml
+$ cd /opt && wget https://raw.githubusercontent.com/Joker1222/Personal-Server-Monitor/master/remote_storage/docker-compose.yml
 $ docker-compose up -d
 ~~~
 
