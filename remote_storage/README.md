@@ -55,5 +55,6 @@ go_memstats_heap_idle_bytes
 ~~~
 
 ~~~bash
+####!!!!!!!!!!!!!!!!!!!!!!!!!! 谨慎一点！别把以前的重要数据给删了
 $ cd /opt/prometheus && ./run.sh stop && rm data -rvf #删除本地data文件，然后重启，观察是否能够从influxdb中恢复数据
 ~~~
