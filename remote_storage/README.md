@@ -13,7 +13,7 @@ $ docker-compose up -d
 2.获取并启动Prometheus提供的Remote Storage Adapter
 ~~~bash
 $ cd /opt && wget https://github.com/Joker1222/Personal-Server-Monitor/raw/master/remote_storage/remote_storage_adapter
-$ cd /opt && nohup ./remote_storage_adapter --influxdb-url=http://localhost:8086 --influxdb.username=prom --influxdb.database=prometheus --influxdb.retention-policy=autogen > remote.log &
+$ cd /opt && chmod 777 remote_storage_adapter && nohup ./remote_storage_adapter --influxdb-url=http://localhost:8086 --influxdb.username=prom --influxdb.database=prometheus --influxdb.retention-policy=autogen > remote.log &
 ~~~
 
 3.修改Prometheus配置
